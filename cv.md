@@ -1,7 +1,5 @@
 # Dasha Ermolich
 
-***
-
 ## Contacts
 
 * **Location:** Krakow, Poland
