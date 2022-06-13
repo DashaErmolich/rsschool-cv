@@ -11,36 +11,42 @@ html {
 
 body {
   color: #454545;
-  background-color: #f1fffa;
+  /* background-color: #f1fffa; */
+  background-color: rgba(147, 183, 190, 0.3);
   font-family: "Quicksand", sans-serif;
   padding: 0;
   margin: 0;
 }
 
-/* .item-1 {
-    background-color: aqua;
-} */
-
-.item-2 {
-  background-color: rgba(147, 183, 190, 0.3);
-  /* border-right: 0.5px solid #454545; */
+.item-1 {
+    background-color: rgba(120, 89, 100, 0.4);
 }
 
-/* .item-3 {
-    background-color: pink;
+/* .item-2 {
+  background-color: rgba(147, 183, 190, 0.3);
 } */
 
-/* .item-4 {
-    background-color: yellow;
-} */
+.item-3 {
+    background-color: #f1fffa;
+    border-right: 1px solid rgba(147, 183, 190, 0.3);;
+}
+
+.item-4 {
+    background-color: rgba(213, 199, 188, 0.5);
+}
 
 .flex-container {
-  max-width: 1440px;
-  margin: 0 auto;
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 
 main {
   display: flex;
@@ -85,12 +91,10 @@ section {
 
 .nav {
   padding-top: 10px;
-  border-bottom: 0.5px solid #454545;
-  background-color: rgba(120, 89, 100, 0.5);
+  /* border-bottom: 0.5px solid #454545; */
 }
 
 .nav-list {
-  /* border: 1px solid red; */
   margin: 0;
   padding: 0;
   list-style: none;
@@ -219,8 +223,7 @@ h1 + p {
 /* FOOTER */
 
 .footer {
-  background-color: rgba(213, 199, 188, 0.5);
-  border-top: 0.5px solid #454545;
+  /* border-top: 0.5px solid #454545; */
   padding: 5px 0;
   display: flex;
   flex-wrap: nowrap;
