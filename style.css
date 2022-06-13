@@ -22,9 +22,9 @@ body {
     background-color: rgba(120, 89, 100, 0.4);
 }
 
-/* .item-2 {
-  background-color: rgba(147, 183, 190, 0.3);
-} */
+.item-2 {
+  background-color: #f1fffa;
+}
 
 .item-3 {
     background-color: #f1fffa;
